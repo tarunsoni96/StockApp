@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/kapil/Kodewit/University/node_modules/react-native-firebase/ios/RNFirebase/functions/RNFirebaseFunctions.m \
+  /Users/kapil/Kodewit/University/ios/Pods/Target\ Support\ Files/RNFirebase/RNFirebase-prefix.pch \
+  /Users/kapil/Kodewit/University/node_modules/react-native-firebase/ios/RNFirebase/functions/RNFirebaseFunctions.h \
+  /Users/kapil/Kodewit/University/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-DevSupport/React/RCTInspectorDevServerHelper.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-DevSupport/React/RCTPackagerConnection.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseCore/FirebaseCore.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseCore/FIRApp.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseCore/FIRConfiguration.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseCore/FIRLoggerLevel.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseCore/FIROptions.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
+  /Users/kapil/Kodewit/University/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseInstanceID/FirebaseInstanceID.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseInstanceID/FIRInstanceID.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseMessaging/FirebaseMessaging.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseMessaging/FIRMessaging.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Headers/Private/FirebaseMessaging/FIRMessagingExtensionHelper.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap \
+  /Users/kapil/Kodewit/University/ios/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Crashlytics.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Modules/module.modulemap \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/ANSCompatibility.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Answers.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSStackFrame.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSReport.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSLogging.h \
+  /Users/kapil/Kodewit/University/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSAttributes.h
