@@ -3,7 +3,7 @@ import shutil
 
 username = input('Enter username of this computer: ')
 projPath = input('Drag and Drop project folder here and press enter: ')
-print(projPath)
+projPath = projPath.replace(" ","")
 desktopDir = '/Users/{}/Desktop'.format(username)
 src = '/Users/{}/Desktop/React Project structure'.format(username)
 os.chdir(desktopDir)
@@ -18,20 +18,21 @@ def renamePackageName():
     renameCommand = 'react-native-rename "{}" -b com.{}'.format(projName,projName.lower())
     os.system(renameCommand)
     
-def copyFolders(fromSrc,toPath,symlinks=False, ig nore=None):
+def copyFolders(fromSrc,toPath,symlinks=False, ignore=None):
     for item in os.listdir(fromSrc):
         s = os.path.join(fromSrc,item)
         d = os.path.join(toPath,item)
-
         if os.path.isdir(s):
             shutil.copytree(s, d, symlinks, ignore)
         else:
+            
             shutil.copy2(s,d)
     
     print('Project ready.Renaming android package name,  Change ios bundleid manually')
     renamePackageName()  
             
 print('Copying...')
+
 copyFolders(src,projPath)
         
 
