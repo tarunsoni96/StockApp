@@ -87,14 +87,15 @@ const DashboardStack = createStackNavigator(
   },
   {
     initialRouteName: "dashboard",
+    headerMode:'none',
     transitionConfig: nav => handleCustomTransition(nav)
   }
 );
 
 const TopLevelNavigator = createAnimatedSwitchNavigator(
   {
-    LoginStack,
     DashboardStack,
+    LoginStack,
   },
   {
     //The previous screen will slide to the bottom while the next screen will fade in

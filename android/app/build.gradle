@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.dummynew"
+        applicationId "com.stockapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -199,7 +199,7 @@ dependencies {
     implementation project(':react-native-linear-gradient')
     implementation project(':@react-native-community_async-storage')
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation "com.facebook.react:react-native:0.61.4"  // From node_modules
        implementation 'com.android.support:appcompat-v7:27.1.1'
        implementation 'com.android.support:design:27.1.1'
 implementation 'com.google.android.gms:play-services-gcm:16.0.0'

@@ -1,1 +1,1 @@
-com.dummynew
+com.stockapp

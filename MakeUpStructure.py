@@ -11,6 +11,7 @@ os.chdir(desktopDir)
 def renamePackageName():
     projName = os.path.basename(projPath)
     os.chdir(projPath)
+    print('Renaming package name for android....')
     customProjName = input('Enter project name if you want to specify any custom name, or leave blank to use directory name instead: ')
     if len(customProjName) > 0:
         projName = customProjName
@@ -25,7 +26,6 @@ def copyFolders(fromSrc,toPath,symlinks=False, ignore=None):
         if os.path.isdir(s):
             shutil.copytree(s, d, symlinks, ignore)
         else:
-            
             shutil.copy2(s,d)
     
     print('Project ready.Renaming android package name,  Change ios bundleid manually')

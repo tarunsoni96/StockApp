@@ -1,1 +1,8 @@
-../../../../../node_modules/react-native-i18n/ios/RNI18n.h
+#if __has_include("RCTBridgeModule.h")
+#import "RCTBridgeModule.h"
+#else
+#import <React/RCTBridgeModule.h>
+#endif
+
+@interface RNI18n : NSObject <RCTBridgeModule>
+@end

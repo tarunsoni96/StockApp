@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kapil/Desktop/React Project structure/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
+            "outputFile": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
                     "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/835ba0b8b9d4a9795560ab7152f03580/res/values-ne/values.xml",

@@ -1,4 +1,4 @@
-# Referenced at /Users/kapil/Desktop/React Project structure/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
+# Referenced at /Users/kapil/Kodewit/StockApp/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/kapil/Desktop/React Project structure/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
--keep class com.dummynew.MainApplication { <init>(); }
+# Referenced at /Users/kapil/Kodewit/StockApp/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
+-keep class com.stockapp.MainApplication { <init>(); }

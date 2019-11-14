@@ -119,23 +119,23 @@ class SubHeader extends Component {
     this.props.navigation.navigate('Settings')
   }
   header_back_middle_right() {
-    let { title } = this.props;
+    let { title,leftIcon,rightIcon } = this.props;
     return (
       <>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <TouchableOpacity onPress={() => this.goBack()}>
             <View>
-              <Icons lib='Feather' name="chevron-left" size={30} color="#fff" />
+              <Icons lib='Feather' name={leftIcon || 'chevron-left'} size={24} color="#000" />
             </View>
           </TouchableOpacity>
         </View>
 
         <View>
-          <CustomText text={title} font={Fonts.heavy} size={17} color="#fff" />
+          <CustomText text={title} font={Fonts.heavy} size={17} color="#000" />
         </View>
         <TouchableOpacity onPress={() => this.navigateSettings()}>
           <View>
-            <Icons lib='SimpleLine' name="settings" size={20} color="#fff" />
+            <Icons lib='SimpleLine' name={rightIcon || 'settings'} size={24} color="#000" />
           </View>
         </TouchableOpacity>
       </>
@@ -155,7 +155,7 @@ class SubHeader extends Component {
         </View>
 
         <View>
-          <CustomText text={title} style={{paddingRight: 13,}} font={Fonts.heavy} size={17} color="#fff" />
+          <CustomText text={title} style={{paddingRight: 13,}} font={Fonts.heavy} size={18} color="#fff" />
         </View>
         <View />
       </>
@@ -181,7 +181,7 @@ const styles = EStyleSheet.create({
     height: "50rem",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingHorizontal: "5rem",
+    paddingHorizontal: "10rem",
     flexDirection: "row"
   },
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { SafeAreaView, ScrollView, StatusBar} from "react-native";
+import {View, SafeAreaView, ScrollView, StatusBar} from "react-native";
 import "Helpers/global";
 import HelperMethods from "Helpers/Methods";
 import EStyleSheet from "react-native-extended-stylesheet";
@@ -29,18 +29,19 @@ import { withNavigation } from "react-navigation";
   }
 
   renderForAndroid() {
-    let {padding,style,contentPadding,scroll} = this.props
+    let {padding,style,viewStyle,scroll} = this.props
     scroll = scroll ? scroll : true
     return (
       <>
-      <StatusBar backgroundColor={Colors.statusBarColor} barStyle="dark-content" />
+      <StatusBar backgroundColor={Colors.primary} barStyle="dark-content" />
       <ScrollView
-      scrollEnabled={scroll}
-      style={[styles.container,{padding:padding*global.rem || 0*global.rem,...style,backgroundColor:'#fff', }]}
-      contentContainerStyle={{flexGrow:1,alignItems: "center",...style,padding:padding == 0 ? 0 : 15*global.rem, }}
+      scrollEnabled={scroll || true}
+      contentContainerStyle={{flexGrow:1,}}
       keyboardShouldPersistTaps="always"
       >
+      <View style={{flex:1,...viewStyle}}>
         {this.props.children}
+      </View>
       </ScrollView>
       </>
     );

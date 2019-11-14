@@ -6,12 +6,13 @@ import android.content.Context;
 import android.content.res.Resources;
 
 import com.facebook.react.ReactPackage;
+import com.facebook.react.shell.MainPackageConfig;
 import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.dummynew.BuildConfig;
-import com.dummynew.R;
+import com.stockapp.BuildConfig;
+import com.stockapp.R;
 
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
@@ -49,13 +50,25 @@ import com.oblador.vectoricons.VectorIconsPackage;
 public class PackageList {
   private Application application;
   private ReactNativeHost reactNativeHost;
+  private MainPackageConfig mConfig;
+
   public PackageList(ReactNativeHost reactNativeHost) {
-    this.reactNativeHost = reactNativeHost;
+    this(reactNativeHost, null);
   }
 
   public PackageList(Application application) {
+    this(application, null);
+  }
+
+  public PackageList(ReactNativeHost reactNativeHost, MainPackageConfig config) {
+    this.reactNativeHost = reactNativeHost;
+    mConfig = config;
+  }
+
+  public PackageList(Application application, MainPackageConfig config) {
     this.reactNativeHost = null;
     this.application = application;
+    mConfig = config;
   }
 
   private ReactNativeHost getReactNativeHost() {
@@ -77,7 +90,7 @@ public class PackageList {
 
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
-      new MainReactPackage(),
+      new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new NetInfoPackage(),
       new SketchCanvasPackage(),

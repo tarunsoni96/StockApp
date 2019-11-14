@@ -1,1 +1,6 @@
-../../../../../node_modules/@terrylinla/react-native-sketch-canvas/ios/RNSketchCanvas/RNSketchCanvas/RNSketchCanvasManager.h
+#import <React/RCTViewManager.h>
+#import "RNSketchCanvas.h"
+
+@interface RNSketchCanvasManager : RCTViewManager
+
+@end
