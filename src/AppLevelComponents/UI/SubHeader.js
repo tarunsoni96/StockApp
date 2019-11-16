@@ -37,7 +37,7 @@ class SubHeader extends Component {
 
       case Constants.header_back:
         return this.header_back();
-
+        
       default:
         return this.main();
     }
@@ -143,19 +143,19 @@ class SubHeader extends Component {
   }
 
   header_back() {
-    let { title } = this.props;
+    let { title,style } = this.props;
     return (
       <>
-        <View style={{ flexDirection: "row", alignItems: "center" }}>
+        <View style={{ flexDirection: "row", alignItems: "center", }}>
           <TouchableOpacity onPress={() => this.goBack()}>
             <View>
-            <Icons lib='Feather' name="chevron-left" size={30} color="#fff" />
+            <Icons lib='Feather' name="chevron-left" size={30} color="#000" />
             </View>
           </TouchableOpacity>
         </View>
 
         <View>
-          <CustomText text={title} style={{paddingRight: 13,}} font={Fonts.heavy} size={18} color="#fff" />
+          <CustomText text={title} style={{paddingRight: 33,}} font={Fonts.heavy} size={18} color="#000" />
         </View>
         <View />
       </>
@@ -163,8 +163,8 @@ class SubHeader extends Component {
   }
 
   render() {
-    let { type } = this.props;
-    return <View style={styles.container}>{this.renderSubheader()}</View>;
+    let { type,style,hideShadow } = this.props;
+    return <View style={[styles.container,{elevation:hideShadow ? 0 : 4},style]}>{this.renderSubheader()}</View>;
   }
 }
 
@@ -177,7 +177,7 @@ const styles = EStyleSheet.create({
 
   container: {
     width: "100%",
-
+    backgroundColor:'#fff',
     height: "50rem",
     justifyContent: "space-between",
     alignItems: "center",

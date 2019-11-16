@@ -91,11 +91,8 @@ const HelperMethods = {
         if(skipToken){
           this.makeApiCall(apiName,formData,formData,callBack,method)
         } else {
-          getToken().then((val) => {
-            console.log(val)
-          const Headers = { 'Authorization': `Bearer ${val}` }
+          const Headers = { 'secret-key': `$2b$10$IlXJiUZUcLUMpPdTQNRaVO7OW5j6Bh783AbnIXEXn6LsBtyuEGMn6` }
           this.makeApiCall(apiName,Headers,formData,callBack,method)
-        })
         }
       }
     })
@@ -124,7 +121,7 @@ const HelperMethods = {
     })
   // axios.interceptors.response.use(response => console.log('reponse', response))
     this.promiseTimeout(reqTimeout,callBack)(axios({
-      url: baseUrl+apiName,
+      url: apiName,
       data:method == 'POST' ? formData : null ,
       headers,
       cancelToken: new CancelToken(

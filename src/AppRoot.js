@@ -83,7 +83,8 @@ const LoginStack = createStackNavigator({
 
 const DashboardStack = createStackNavigator(
   {
-    dashboard:Dashboard
+    dashboard:Dashboard,
+    profile:Profile,
   },
   {
     initialRouteName: "dashboard",

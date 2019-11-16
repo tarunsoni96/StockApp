@@ -1,0 +1,4 @@
+#Fri Nov 15 03:44:23 IST 2019
+base.0=/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/transforms/dexMerger/prePod/0
+path.0=classes.dex
+renamed.0=classes.dex

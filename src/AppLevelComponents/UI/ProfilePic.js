@@ -46,7 +46,7 @@ class ProfilePic extends Component {
       <TouchableOpacity onPress={ ()=> canNavigateToProfile ? this.navigateProfile() : this.tapFunc() }>
 
       <View style={[styles.container,{...style},size && {width:size,height:size} ]}>
-      <Transition shared='profilePic'>
+      <Transition shared={pic}>
           <Image style={{width:'100%',height:'100%',borderRadius:100}} resizeMode='cover' source={{uri:profilePic || pic}}  />
           </Transition>
           {showCameraIcon && 
@@ -67,8 +67,8 @@ const styles = EStyleSheet.create({
 
 
   container: {
-    width: 50,
-    height: 50,
+    width:  80,
+    height: 80,
     borderRadius: 100 / 2,
     backgroundColor: Colors.dark,
     

@@ -62,12 +62,11 @@ export default class CustomButton extends Component {
         textColor={textColor || Colors.white}
         containerStyle={{
           width: width || "100%",
-          borderRadius: borderRadius || 60,
           ...containerStyle
         }}
         buttonStyle={[
           styles.button,
-          { borderRadius: borderRadius || 60,...buttonStyle }
+          { ...buttonStyle }
         ]}
         loading={isApiCall && isApiCall != 'failed'}
       />
@@ -83,6 +82,7 @@ const styles = EStyleSheet.create({
   button: {
     
     height: "44rem",
+    
     justifyContent: 'center',
     backgroundColor: Colors.accent,
     borderRadius: 4

@@ -67,7 +67,7 @@ const styles = EStyleSheet.create({
   container: {
     flex: 1,
     width:'100%',
-    backgroundColor: Colors.pageBackground
+    
   },
 
   contentContainerStyle:{

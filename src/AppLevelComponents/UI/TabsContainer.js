@@ -19,7 +19,7 @@ class TabsContainer extends Component {
     const {sceneMap,indexSetter} = this.props
     return (
       <TabView
-      swipeEnabled={false}
+      // swipeEnabled={false}
       nestedScrollEnabled
           renderTabBar={props => (
             <TabBar

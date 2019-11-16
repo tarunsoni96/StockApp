@@ -66,12 +66,13 @@ class NetworkAwareContent extends Component {
   }
 
   drawView(isApiCall, children) {
-    const {apiFunc} = this.props;
+    const {apiFunc,isRefreshing} = this.props;
     let view;
 
     switch (isApiCall) {
       case true:
-        view = <Loader style={{marginTop: marginTop}} />;
+
+          view = <Loader style={{marginTop: marginTop}} />;
         break;
       case 'failed':
         view = (
@@ -95,7 +96,7 @@ class NetworkAwareContent extends Component {
   }
 
   render() {
-    const {isApiCall,data} = this.props
+    const {isApiCall,data,isRefreshing} = this.props
     return <View style={{flex:1}}>
     {!isApiCall && data.length == 0 ? 
     <NoDataView />

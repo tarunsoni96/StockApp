@@ -55,7 +55,7 @@ class Icons extends Component {
 
               case 'Material':
               return (
-                <MaterialCommunityIcons name={name} size={size || iconSize} color={color || "#000"} />
+                <MaterialCommunityIcons style={style} name={name} size={size || iconSize} color={color || "#000"} />
               );
 
               case 'SimpleLine':
