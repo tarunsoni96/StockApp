@@ -1,5 +1,1 @@
-#import <React/RCTViewManager.h>
-
-@interface RNFirebaseAdMobBannerManager : RCTViewManager
-
-@end
+../../../../../node_modules/react-native-firebase/ios/RNFirebase/admob/RNFirebaseAdMobBannerManager.h

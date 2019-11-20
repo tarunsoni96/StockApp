@@ -518,17 +518,17 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">952856718074-kapl7j6ucrvhi63tiaoajq15ejnb693p.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">818706554093-sugik6aknkfep7okaokmg2bknrkd5km5.apps.googleusercontent.com</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url" translatable="false">https://university-4e74b.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">952856718074</string>
+    <string name="firebase_database_url" translatable="false">https://stockapp-9bd7b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">818706554093</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="google_api_key" translatable="false">AIzaSyAVWQJyNBv7TuBGHLkx11MFSlb_zfdvHK0</string>
-    <string name="google_app_id" translatable="false">1:952856718074:android:98036e70fd402db10b7743</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAVWQJyNBv7TuBGHLkx11MFSlb_zfdvHK0</string>
-    <string name="google_storage_bucket" translatable="false">university-4e74b.appspot.com</string>
+    <string name="google_api_key" translatable="false">AIzaSyDtf4NNCvp4g1guHhOsUXu330LIMktU74o</string>
+    <string name="google_app_id" translatable="false">1:818706554093:android:2554dfc36414e323f080e4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDtf4NNCvp4g1guHhOsUXu330LIMktU74o</string>
+    <string name="google_storage_bucket" translatable="false">stockapp-9bd7b.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="image_description" translatable="false">Image</string>
@@ -544,7 +544,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
-    <string name="project_id" translatable="false">university-4e74b</string>
+    <string name="project_id" translatable="false">stockapp-9bd7b</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>

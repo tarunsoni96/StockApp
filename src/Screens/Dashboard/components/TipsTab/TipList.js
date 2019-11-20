@@ -5,6 +5,7 @@ import TipItem from "./TipItem";
 import NetworkAwareContent from "AppLevelComponents/UI/NetworkAwareContent";
 
 import { getTips } from "ServiceProviders/ApiCaller";
+import CustomFlatList from "../../../../AppLevelComponents/UI/CustomFlatList";
 class TipList extends Component {
   constructor(props) {
     super(props);
@@ -19,7 +20,7 @@ class TipList extends Component {
     this.getData();
   }
 
-  getData() {
+  getData = () => {
     this.setState({ isApiCall: true });
     getTips()
       .then(resp => {
@@ -46,19 +47,7 @@ class TipList extends Component {
           apiFunc={this.getData}
           isApiCall={this.state.isApiCall}
         >
-          <FlatList
-            refreshControl={
-              <RefreshControl
-                refreshing={this.state.refreshing}
-                onRefresh={this.onRefresh}
-                title="Pull to refresh"
-              />
-            }
-            nestedScrollEnabled
-            data={this.state.data}
-            keyExtractor={(item, index) => index + ""}
-            renderItem={this.renderItems}
-          />
+         <CustomFlatList onRefresh={this.onRefresh} refreshing={this.state.refreshing} data={this.state.data} renderItem={this.renderItems} />
         </NetworkAwareContent>
       </View>
     );

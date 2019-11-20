@@ -20,7 +20,6 @@ class TabsContainer extends Component {
     return (
       <TabView
       // swipeEnabled={false}
-      nestedScrollEnabled
           renderTabBar={props => (
             <TabBar
               {...props}

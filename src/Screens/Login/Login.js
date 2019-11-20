@@ -75,7 +75,7 @@ class Login extends Component {
           <View style={styles.subContainer}>
             <Logo />
             <CustomText
-              text="University"
+              text="StockApp"
               color={Colors.black}
               size={17}
               style={{ marginTop: 10, marginBottom: 30 }}

@@ -32,10 +32,10 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <>
+      <Container scroll={false}>
       <StatusBar backgroundColor={Colors.primary} barStyle="dark-content" />
 
-        <SubHeader hideShadow leftIcon="search" rightIcon='user' type={Constants.header_back_middle_right} title='StockApp' />
+        <SubHeader hideShadow leftIcon="user" rightIcon='search' type={Constants.header_back_middle_right} title='StockApp' />
         <TabsContainer
           sceneMap={SceneMap({
             first: FirstRoute,
@@ -45,7 +45,7 @@ class Dashboard extends Component {
           state={this.state}
         />
 
-        </>
+        </Container>
     );
   }
 }

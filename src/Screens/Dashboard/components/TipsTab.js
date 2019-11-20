@@ -20,17 +20,7 @@ class TipsTab extends Component {
   render() {
     return (
       <View style={{ flex: 1, backgroundColor: Colors.pageBackground }}>
-        {/* <ParallaxScroll
-          fadeOutParallaxBackground={true}
-          // renderParallaxBackground={({ animatedValue }) => <UsersList animatedValue={animatedValue} />}
-          parallaxBackgroundScrollSpeed={5}
-          parallaxHeight={0}
-          parallaxForegroundScrollSpeed={2.5}
-        > */}
-        {/* <CustomText text="Following" size={17} margin={15} style={{marginBottom:0}}/> */}
-          {/* <UsersList /> */}
           <TipList />
-        {/* </ParallaxScroll> */}
       </View>
     );
   }

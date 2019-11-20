@@ -580,10 +580,6 @@
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_notification.png.flat",
-        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-xhdpi/ic_notification.png"
-    },
-    {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable/abc_spinner_textfield_background_material.xml"
     },
@@ -602,6 +598,10 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/9e4c3fccd2bbbc7f8725c5670b12f221/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
@@ -820,6 +820,10 @@
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_img_logo.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-mdpi/assets_img_logo.png"
+    },
+    {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/9617390ca3ed951c0b050e887ea9b72b/res/color/mtrl_btn_text_color_selector.xml"
     },
@@ -906,10 +910,6 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
         "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
-    },
-    {
-        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_notification.png.flat",
-        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-xxhdpi/ic_notification.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1320,6 +1320,10 @@
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/9617390ca3ed951c0b050e887ea9b72b/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
     },
@@ -1524,10 +1528,6 @@
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_notification.png.flat",
-        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-hdpi/ic_notification.png"
-    },
-    {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/5bbd63ebab30012d3ef8dd6fae392e8e/res/xml/rn_dev_preferences.xml"
     },
@@ -1554,10 +1554,6 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
         "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
-    },
-    {
-        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_notification.png.flat",
-        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-xxxhdpi/ic_notification.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -1658,10 +1654,6 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/interpolator_mtrl_linear.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/9617390ca3ed951c0b050e887ea9b72b/res/interpolator/mtrl_linear.xml"
-    },
-    {
-        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_notification.png.flat",
-        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-mdpi/ic_notification.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1838,6 +1830,10 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -2204,6 +2200,10 @@
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/9617390ca3ed951c0b050e887ea9b72b/res/layout/design_layout_tab_text.xml"
     },
@@ -2226,6 +2226,10 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
@@ -2402,6 +2406,10 @@
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/kapil/.gradle/caches/transforms-2/files-2.1/faf707d98653ebf52c64d7ee7d4f9abe/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Users/kapil/Kodewit/StockApp/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
     },
     {
         "merged": "/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",

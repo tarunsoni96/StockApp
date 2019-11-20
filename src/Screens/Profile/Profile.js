@@ -12,22 +12,22 @@ import Constants from "Helpers/Constants";
 import HelperMethods from "Helpers/Methods";
 import StatsGraph from "./components/StatsGraph";
 
-let titleSize=19
+let titleSize = 19;
 export class Profile extends Component {
   state = {};
 
   render() {
-    const { userName,userImage } = this.props.navigation.state.params || {};
+    const { userName, userImage } = this.props.navigation.state.params || {};
     return (
       <Container padding={0}>
         <SubHeader type={Constants.header_back} title="@Vinay" />
 
         <View style={{ alignItems: "center", marginTop: 15 }}>
-        <ProfilePic pic={userImage} />
+          <ProfilePic pic={userImage} />
         </View>
 
         <View style={{ padding: 10 }}>
-        <CustomText
+          <CustomText
             text={"About"}
             size={titleSize}
             font={Fonts.heavy}
@@ -57,13 +57,9 @@ export class Profile extends Component {
             color="#000"
           />
 
-<CustomText
-            text={`90%`}
-            color="#000"
-          />
+          <CustomText text={`90%`} color="#000" />
 
-
-<CustomText
+          <CustomText
             text={"Total Tips"}
             size={titleSize}
             font={Fonts.heavy}
@@ -71,10 +67,7 @@ export class Profile extends Component {
             color="#000"
           />
 
-<CustomText
-            text={'340'}
-            color="#000"
-          />
+          <CustomText text={"340"} color="#000" />
 
           <CustomText
             text={`Pricing`}
@@ -84,12 +77,9 @@ export class Profile extends Component {
             color="#000"
           />
 
-<CustomText
-             text={`${"\u20B9"}1000, Which includes: `}
-            color="#000"
-          />
+          <CustomText text={`${"\u20B9"}1000, Which includes: `} color="#000" />
 
-<CustomText
+          <CustomText
             text={` - Monthly Blogs`}
             style={{ marginTop: 10 }}
             font={Fonts.medium}
@@ -105,7 +95,7 @@ export class Profile extends Component {
             color="#000"
           />
 
-<CustomText
+          <CustomText
             text={`Expertise Areas`}
             style={{ marginTop: 20 }}
             font={Fonts.heavy}

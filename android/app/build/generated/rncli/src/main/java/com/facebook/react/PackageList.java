@@ -22,8 +22,6 @@ import com.reactnativecommunity.netinfo.NetInfoPackage;
 import com.terrylinla.rnsketchcanvas.SketchCanvasPackage;
 // react-native-bottom-sheet-behavior
 import com.bottomsheetbehavior.BottomSheetBehaviorPackage;
-// react-native-fetch-blob
-import com.RNFetchBlob.RNFetchBlobPackage;
 // react-native-firebase
 import io.invertase.firebase.RNFirebasePackage;
 // react-native-gesture-handler
@@ -95,7 +93,6 @@ public class PackageList {
       new NetInfoPackage(),
       new SketchCanvasPackage(),
       new BottomSheetBehaviorPackage(),
-      new RNFetchBlobPackage(),
       new RNFirebasePackage(),
       new RNGestureHandlerPackage(),
       new RNI18nPackage(),

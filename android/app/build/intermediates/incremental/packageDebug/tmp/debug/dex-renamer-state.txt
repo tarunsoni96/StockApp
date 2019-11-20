@@ -1,4 +1,4 @@
-#Fri Nov 15 02:33:55 IST 2019
+#Tue Nov 19 17:09:52 IST 2019
 base.0=/Users/kapil/Kodewit/StockApp/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes2.dex
 renamed.1=classes2.dex

@@ -8,14 +8,14 @@ import ParallaxScroll from "@monterosa/react-native-parallax-scroll";
 
 import Constants from "Helpers/Constants";
 import { Colors } from "../../../UIProps/Colors";
-import StockList from "./StockTab/StockList";
+import StreamList from "./StockTab/StreamList";
 
 
 export class StreamTab extends Component {
     render() {
         return (
             <View style={{ flex: 1, backgroundColor: Colors.pageBackground }}>
-              <StockList />
+              <StreamList />
           </View>
         )
     }

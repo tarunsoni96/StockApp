@@ -7,7 +7,6 @@ INJECTED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest
 MERGED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:1:1-51:12
 MERGED from [:react-native-firebase] /Users/kapil/Kodewit/StockApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/kapil/.gradle/caches/transforms-2/files-2.1/8f1d845249bcdda8af7d64b6a7fc041e/AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-fetch-blob] /Users/kapil/Kodewit/StockApp/node_modules/react-native-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:@react-native-community_netinfo] /Users/kapil/Kodewit/StockApp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-svg] /Users/kapil/Kodewit/StockApp/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-nested-scroll-view] /Users/kapil/Kodewit/StockApp/node_modules/react-native-nested-scroll-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -147,8 +146,6 @@ MERGED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.x
 MERGED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:10:5-49:19
 MERGED from [:react-native-firebase] /Users/kapil/Kodewit/StockApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
 MERGED from [:react-native-firebase] /Users/kapil/Kodewit/StockApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
-MERGED from [:react-native-fetch-blob] /Users/kapil/Kodewit/StockApp/node_modules/react-native-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-fetch-blob] /Users/kapil/Kodewit/StockApp/node_modules/react-native-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-image-picker] /Users/kapil/Kodewit/StockApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-image-picker] /Users/kapil/Kodewit/StockApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-splash-screen] /Users/kapil/Kodewit/StockApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
@@ -229,12 +226,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kapi
 	android:name
 		ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:11:7-38
 		ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:11:7-38
-meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:18:1-128
-	android:resource
-		ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:18:83-125
-	android:name
-		ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:18:12-82
 service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
 ADDED from /Users/kapil/Kodewit/StockApp/android/app/src/main/AndroidManifest.xml:20:3-98
 	android:name
@@ -293,8 +284,6 @@ MERGED from [:react-native-firebase] /Users/kapil/Kodewit/StockApp/node_modules/
 MERGED from [:react-native-firebase] /Users/kapil/Kodewit/StockApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/kapil/.gradle/caches/transforms-2/files-2.1/8f1d845249bcdda8af7d64b6a7fc041e/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/kapil/.gradle/caches/transforms-2/files-2.1/8f1d845249bcdda8af7d64b6a7fc041e/AndroidManifest.xml:20:5-43
-MERGED from [:react-native-fetch-blob] /Users/kapil/Kodewit/StockApp/node_modules/react-native-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fetch-blob] /Users/kapil/Kodewit/StockApp/node_modules/react-native-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-community_netinfo] /Users/kapil/Kodewit/StockApp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_netinfo] /Users/kapil/Kodewit/StockApp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /Users/kapil/Kodewit/StockApp/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41

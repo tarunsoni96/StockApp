@@ -125,7 +125,7 @@ class SubHeader extends Component {
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <TouchableOpacity onPress={() => this.goBack()}>
             <View>
-              <Icons lib='Feather' name={leftIcon || 'chevron-left'} size={24} color="#000" />
+              <Icons lib='SimpleLine' name={leftIcon || 'chevron-left'} size={24} color="#000" />
             </View>
           </TouchableOpacity>
         </View>
@@ -135,7 +135,7 @@ class SubHeader extends Component {
         </View>
         <TouchableOpacity onPress={() => this.navigateSettings()}>
           <View>
-            <Icons lib='SimpleLine' name={rightIcon || 'settings'} size={24} color="#000" />
+            <Icons lib='Feather' name={rightIcon || 'settings'} size={24} color="#000" />
           </View>
         </TouchableOpacity>
       </>
@@ -164,7 +164,7 @@ class SubHeader extends Component {
 
   render() {
     let { type,style,hideShadow } = this.props;
-    return <View style={[styles.container,{elevation:hideShadow ? 0 : 4},style]}>{this.renderSubheader()}</View>;
+    return <View style={[styles.container,hideShadow ? {} : styles.shadown,style]}>{this.renderSubheader()}</View>;
   }
 }
 
@@ -174,6 +174,14 @@ const styles = EStyleSheet.create({
   $smallCircle: 103,
   $largeCircle: 210,
   $borderRadius: 20,
+
+  shadown:{
+    elevation:4,
+    shadowColor: "#000",
+        shadowOffset: { height: 1, width: 0 },
+        shadowOpacity: 0.15,
+        shadowRadius: 2,
+  },  
 
   container: {
     width: "100%",

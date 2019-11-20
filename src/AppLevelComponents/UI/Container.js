@@ -9,20 +9,21 @@ import { withNavigation } from "react-navigation";
  export default class Container extends Component {
 
   renderForIOS() {
-    let {padding,style,contentPadding,scroll} = this.props
+    let {padding,style,contentPadding,viewStyle,scroll} = this.props
     return (
       <>
-      <SafeAreaView style={{ flex: 0, backgroundColor: Colors.accent,color:'#fff' }} />
-      <SafeAreaView style={{ flex: 1,backgroundColor:Colors.contentCard, }}>
-      <StatusBar translucent={true} barStyle="light-content" />
-        <ScrollView
-        scrollEnabled={scroll}
-          style={[styles.container]}
-          contentContainerStyle={{alignItems: "center",...style,padding:padding == 0 ? 0 : 15*global.rem,flex:1 }}
-          keyboardShouldPersistTaps="always"
-        >
-          {this.props.children}
-        </ScrollView>
+      <SafeAreaView style={{ flex: 0, backgroundColor: Colors.primary,color:'#fff' }} />
+      <SafeAreaView style={{ flex: 1,backgroundColor:Colors.primary, }}>
+      <StatusBar backgroundColor={Colors.primary} barStyle="dark-content" />
+      <ScrollView
+      scrollEnabled={scroll != undefined ? scroll : true}
+      contentContainerStyle={{flexGrow:1,}}
+      keyboardShouldPersistTaps="always"
+      >
+      <View style={{flex:1,...viewStyle}}>
+        {this.props.children}
+      </View>
+      </ScrollView>
       </SafeAreaView>
       </>
     );
@@ -35,7 +36,8 @@ import { withNavigation } from "react-navigation";
       <>
       <StatusBar backgroundColor={Colors.primary} barStyle="dark-content" />
       <ScrollView
-      scrollEnabled={scroll || true}
+      scrollEnabled={scroll != undefined ? scroll : true}
+      
       contentContainerStyle={{flexGrow:1,}}
       keyboardShouldPersistTaps="always"
       >
