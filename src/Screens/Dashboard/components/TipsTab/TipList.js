@@ -39,6 +39,9 @@ class TipList extends Component {
     this.setState({ refreshing: true });
     this.getData();
   };
+
+
+
   render() {
     return (
       <View style={styles.container}>
@@ -48,6 +51,8 @@ class TipList extends Component {
           isApiCall={this.state.isApiCall}
         >
          <CustomFlatList onRefresh={this.onRefresh} refreshing={this.state.refreshing} data={this.state.data} renderItem={this.renderItems} />
+          
+         
         </NetworkAwareContent>
       </View>
     );
